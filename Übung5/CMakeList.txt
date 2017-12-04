@@ -1,0 +1,11 @@
+cmake_minimum_required(VERSION 2.8)
+
+# Project's name
+
+project(Check_Parenthesis)
+
+add_executable(Check_Parenthesis checkparens.cpp)
+add_executable(Check_Parenthesis input.cc)
+
+include_directories("${/home/Code/Programmierkurs/Übung5}")
+
